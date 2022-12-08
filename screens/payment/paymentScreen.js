@@ -39,29 +39,24 @@ const PaymentScreen = ({ navigation, route }) => {
         >
           {payableAmountInfo()}
           {paymentMethod({
-            icon: require("../../assets/images/payment_icon/cash_on_delivery.png"),
-            paymentType: "Pay on Delivery",
+            icon: require("../../assets/images/payment_icon/khan.png"),
+            paymentType: "Хаан банк",
             index: 1,
           })}
           {paymentMethod({
-            icon: require("../../assets/images/payment_icon/amazon_pay.png"),
-            paymentType: "Amazon Pay",
+            icon: require("../../assets/images/payment_icon/mbank.png"),
+            paymentType: "М банк",
             index: 2,
           })}
           {paymentMethod({
-            icon: require("../../assets/images/payment_icon/card.png"),
-            paymentType: "Card",
+            icon: require("../../assets/images/payment_icon/socialpay.png"),
+            paymentType: "Сошиал пэй",
             index: 3,
           })}
           {paymentMethod({
-            icon: require("../../assets/images/payment_icon/paypal.png"),
-            paymentType: "PayPal",
+            icon: require("../../assets/images/payment_icon/monpay.png"),
+            paymentType: "Мон пэй",
             index: 4,
-          })}
-          {paymentMethod({
-            icon: require("../../assets/images/payment_icon/skrill.png"),
-            paymentType: "Skrill",
-            index: 5,
           })}
         </ScrollView>
         {payButton()}

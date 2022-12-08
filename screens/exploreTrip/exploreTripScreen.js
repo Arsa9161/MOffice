@@ -32,48 +32,48 @@ const placeImagesList = [
   },
 ];
 
-const mustVisitablePlacesList = [
-  {
-    id: "1",
-    placeImage: require("../../assets/images/trips/swiss-alps.jpg"),
-    rating: 5.0,
-    placeName: "Swiss Alps",
-    location: "Switzerland",
-    offerInPercentage: 15,
-  },
-  {
-    id: "2",
-    placeImage: require("../../assets/images/trips/mount-logan.jpg"),
-    rating: 4.7,
-    placeName: "Mount Logan",
-    location: "Canada",
-    offerInPercentage: 18,
-  },
-  {
-    id: "3",
-    placeImage: require("../../assets/images/trips/mount-fuji.jpg"),
-    rating: 4.4,
-    placeName: "Mount Fuji",
-    location: "Japan",
-    offerInPercentage: 10,
-  },
-  {
-    id: "4",
-    placeImage: require("../../assets/images/trips/mouna-kia.jpg"),
-    rating: 4.0,
-    placeName: "Mauna Kea",
-    location: "United States",
-    offerInPercentage: 10,
-  },
-  {
-    id: "5",
-    placeImage: require("../../assets/images/trips/grand-teton.jpg"),
-    rating: 4.8,
-    placeName: "Grand Teton",
-    location: "Wyoming",
-    offerInPercentage: 15,
-  },
-];
+// const mustVisitablePlacesList = [
+//   {
+//     id: "1",
+//     placeImage: require("../../assets/images/trips/swiss-alps.jpg"),
+//     rating: 5.0,
+//     placeName: "Swiss Alps",
+//     location: "Switzerland",
+//     offerInPercentage: 15,
+//   },
+//   {
+//     id: "2",
+//     placeImage: require("../../assets/images/trips/mount-logan.jpg"),
+//     rating: 4.7,
+//     placeName: "Mount Logan",
+//     location: "Canada",
+//     offerInPercentage: 18,
+//   },
+//   {
+//     id: "3",
+//     placeImage: require("../../assets/images/trips/mount-fuji.jpg"),
+//     rating: 4.4,
+//     placeName: "Mount Fuji",
+//     location: "Japan",
+//     offerInPercentage: 10,
+//   },
+//   {
+//     id: "4",
+//     placeImage: require("../../assets/images/trips/mouna-kia.jpg"),
+//     rating: 4.0,
+//     placeName: "Mauna Kea",
+//     location: "United States",
+//     offerInPercentage: 10,
+//   },
+//   {
+//     id: "5",
+//     placeImage: require("../../assets/images/trips/grand-teton.jpg"),
+//     rating: 4.8,
+//     placeName: "Grand Teton",
+//     location: "Wyoming",
+//     offerInPercentage: 15,
+//   },
+// ];
 
 const popularDestinationsList = [
   {

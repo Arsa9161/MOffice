@@ -11,14 +11,9 @@ import BookNowScreen from "./screens/bookNow/bookNowScreen";
 import ExploreTripScreen from "./screens/exploreTrip/exploreTripScreen";
 import HotelDetailScreen from "./screens/hotelDetail/hotelDetailScreen";
 import HotelWithMapScreen from "./screens/hotelWithMap/hotelWithMapScreen";
-import MustVisitPlaceScreen from "./screens/mustVisitPlace/mustVisitPlaceScreen";
 import PaymentScreen from "./screens/payment/paymentScreen";
-import PopularExperienceScreen from "./screens/popularExperience/popularExperienceScreen";
 import PopularPlaceScreen from "./screens/popularPlace/popularPlaceScreen";
-import NotificationScreen from "./screens/notification/notificationScreen";
 import EditProfileScreen from "./screens/editProfile/editProfileScreen";
-import InviteFriendsScreen from "./screens/inviteFriends/inviteFriendsScreen";
-import TravelProCashScreen from "./screens/travelProCash/travelProCashScreen";
 import WelcomeScreen from "./screens/auth/welcomeScreen";
 import VerificationScreen from "./screens/auth/verificationScreen";
 import RegisterScreen from "./screens/auth/registerScreen";
@@ -63,16 +58,11 @@ const App = () => {
           }}
         />
         <Stack.Screen name="AllReviews" component={AllReviewsScreen} />
-        {/* <Stack.Screen name="PopularExperience" component={PopularExperienceScreen} /> */}
         <Stack.Screen name="BookNow" component={BookNowScreen} />
         <Stack.Screen name="Payment" component={PaymentScreen} />
         <Stack.Screen name="HotelWithMap" component={HotelWithMapScreen} />
         <Stack.Screen name="ExploreTrip" component={ExploreTripScreen} />
-        <Stack.Screen name="MustVisitPlace" component={MustVisitPlaceScreen} />
-        <Stack.Screen name="Notification" component={NotificationScreen} />
         <Stack.Screen name="EditProfile" component={EditProfileScreen} />
-        <Stack.Screen name="InviteFriends" component={InviteFriendsScreen} />
-        <Stack.Screen name="TravelProCash" component={TravelProCashScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
